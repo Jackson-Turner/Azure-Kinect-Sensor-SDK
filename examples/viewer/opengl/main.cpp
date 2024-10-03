@@ -112,8 +112,10 @@ int main()
             //
             const ImVec2 windowSize(window.GetWidth() / 2.f, static_cast<float>(window.GetHeight()));
 
+          //Modify below to instead of sending the frame to the window to output send it to the NDI encoder
+          //If properly done this should save any major modifications to the code while allowing for wireless.
             window.ShowTexture("Depth", depthTexture, ImVec2(0.f, 0.f), windowSize);
-            window.ShowTexture("Color", colorTexture, ImVec2(window.GetWidth() / 2.f, 0.f), windowSize);
+            window.ShowTexture("Color", colorTexture, ImVec2(window.GetWidth() / 2.f, 0.f), windowSize)
 
             // This will tell ImGui/OpenGL to render the frame, and will block until the next vsync.
             //
