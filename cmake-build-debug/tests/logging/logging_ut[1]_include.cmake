@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/logging/logging_ut[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/logging/logging_ut[1]_tests.cmake")
+else()
+  add_test(logging_ut_NOT_BUILT logging_ut_NOT_BUILT)
+endif()

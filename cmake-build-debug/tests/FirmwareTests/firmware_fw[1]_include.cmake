@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/FirmwareTests/firmware_fw[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/FirmwareTests/firmware_fw[1]_tests.cmake")
+else()
+  add_test(firmware_fw_NOT_BUILT firmware_fw_NOT_BUILT)
+endif()

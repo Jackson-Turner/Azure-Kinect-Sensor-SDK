@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/executables/executables_ft_custom[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/executables/executables_ft_custom[1]_tests.cmake")
+else()
+  add_test(executables_ft_custom_NOT_BUILT executables_ft_custom_NOT_BUILT)
+endif()

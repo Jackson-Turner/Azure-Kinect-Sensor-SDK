@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/multidevice/multidevice_ft[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/multidevice/multidevice_ft[1]_tests.cmake")
+else()
+  add_test(multidevice_ft_NOT_BUILT multidevice_ft_NOT_BUILT)
+endif()

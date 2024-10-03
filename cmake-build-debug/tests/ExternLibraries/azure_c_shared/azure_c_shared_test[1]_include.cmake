@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/ExternLibraries/azure_c_shared/azure_c_shared_test[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/ExternLibraries/azure_c_shared/azure_c_shared_test[1]_tests.cmake")
+else()
+  add_test(azure_c_shared_test_NOT_BUILT azure_c_shared_test_NOT_BUILT)
+endif()

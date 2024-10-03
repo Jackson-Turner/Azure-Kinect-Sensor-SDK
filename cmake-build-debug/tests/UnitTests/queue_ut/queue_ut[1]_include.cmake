@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/UnitTests/queue_ut/queue_ut[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/UnitTests/queue_ut/queue_ut[1]_tests.cmake")
+else()
+  add_test(queue_ut_NOT_BUILT queue_ut_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/UnitTests/allocator_ut/allocator_ut[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/UnitTests/allocator_ut/allocator_ut[1]_tests.cmake")
+else()
+  add_test(allocator_ut_NOT_BUILT allocator_ut_NOT_BUILT)
+endif()

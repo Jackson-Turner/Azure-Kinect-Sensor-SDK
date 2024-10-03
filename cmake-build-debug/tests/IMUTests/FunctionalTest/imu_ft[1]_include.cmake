@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/IMUTests/FunctionalTest/imu_ft[1]_tests.cmake")
+  include("C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/tests/IMUTests/FunctionalTest/imu_ft[1]_tests.cmake")
+else()
+  add_test(imu_ft_NOT_BUILT imu_ft_NOT_BUILT)
+endif()
