@@ -5,6 +5,7 @@
 #define TEXTURE_H
 
 #include <utility>
+#include <vector>
 
 #include "k4aimgui_all.h"
 #include "k4apixel.h"
@@ -49,6 +50,8 @@ public:
         return m_height;
     }
 
+    const BgraPixel* GetBuffer() const;
+
     ~Texture();
 
     // In the interest of simplicity, we don't refcount textures, so
@@ -63,17 +66,9 @@ public:
     Texture &operator=(Texture &&other);
 
 private:
-    // Creating a texture before the viewer window has been initialized will fail,
-    // so we make the viewer responsible for creating texture instances.
-    //
-    // Creates a texture with the specified dimensions, including allocating space
-    // on the GPU.  Use Update() to update the image stored in the texture.
-    //
     friend class ViewerWindow;
     Texture(int width, int height);
 
-    // Deletes the wrapped texture.
-    //
     void DeleteTexture();
 
     static constexpr GLuint InvalidTextureName = 0;
@@ -81,7 +76,10 @@ private:
     GLuint m_name = InvalidTextureName;
     int m_width = 0;
     int m_height = 0;
-};
+
+    // Internal buffer to store texture data
+    std::vector<BgraPixel> m_buffer;
+}; // End of class Texture
 
 } // namespace viewer
 

@@ -1,0 +1,3 @@
+C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/examples/viewer/opengl/cmake-build-debug/CMakeFiles/viewer_opengl.dir
+C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/examples/viewer/opengl/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/examples/viewer/opengl/cmake-build-debug/CMakeFiles/rebuild_cache.dir

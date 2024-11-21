@@ -57,7 +57,7 @@ endif()
 add_library(aziotsharedutil STATIC IMPORTED)
 
 set_target_properties(aziotsharedutil PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/azureiot"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/azureiot"
 )
 
 # Load information for each installed configuration.

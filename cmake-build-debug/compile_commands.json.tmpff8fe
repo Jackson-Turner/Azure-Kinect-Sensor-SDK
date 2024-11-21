@@ -4130,7 +4130,4 @@
 {
   "directory": "C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug",
   "command": "C:\\Users\\jaxmu\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\windres.exe -O coff -D_CRT_SECURE_NO_WARNINGS -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/src/../include -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/cmake-build-debug/src/sdk/include -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/inc -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/pal/linux -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/deps/azure-macro-utils-c/inc -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/extern/azure_c_shared/src/deps/umock-c/inc -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/extern/spdlog/src/include -I C:/Users/jaxmu/OneDrive/Documents/Github/personal/Azure-Kinect-Sensor-SDK/extern/libusb/src/libusb C:\\Users\\jaxmu\\OneDrive\\Documents\\Github\\personal\\Azure-Kinect-Sensor-SDK\\cmake-build-debug\\tools\\updater\\version.rc tools\\updater\\CMakeFiles\\AzureKinectFirmwareTool.dir\\version.rc.obj",
-  "file": "C:\\Users\\jaxmu\\OneDrive\\Documents\\Github\\personal\\Azure-Kinect-Sensor-SDK\\cmake-build-debug\\tools\\updater\\version.rc",
-  "output": "tools\\updater\\CMakeFiles\\AzureKinectFirmwareTool.dir\\version.rc.obj"
-}
-]
+  "file": "C:\\Users\\jaxmu\\OneDrive\\Documents\\Github\\

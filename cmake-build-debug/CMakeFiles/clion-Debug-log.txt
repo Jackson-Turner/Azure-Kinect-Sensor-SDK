@@ -1,18 +1,4 @@
 C:\Users\jaxmu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/jaxmu/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\jaxmu\OneDrive\Documents\Github\personal\Azure-Kinect-Sensor-SDK -B C:\Users\jaxmu\OneDrive\Documents\Github\personal\Azure-Kinect-Sensor-SDK\cmake-build-debug
--- The C compiler identification is GNU 13.1.0
--- The CXX compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Users/jaxmu/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Users/jaxmu/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Updating git modules...
--- Setting git config submodules.recurse to true
 CMake Deprecation Warning at extern/azure_c_shared/src/CMakeLists.txt:4 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -33,13 +19,7 @@ CMake Warning (dev) at extern/azure_c_shared/src/CMakeLists.txt:10 (project):
     PROJECT_VERSION_MINOR
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Looking for include file stdint.h
--- Looking for include file stdint.h - found
--- Looking for include file stdbool.h
--- Looking for include file stdbool.h - found
 -- target architecture: x86_64
--- Performing Test CXX_FLAG_CXX11
--- Performing Test CXX_FLAG_CXX11 - Success
 CMake Deprecation Warning at extern/azure_c_shared/src/deps/azure-macro-utils-c/CMakeLists.txt:4 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -98,20 +78,7 @@ CMake Deprecation Warning at extern/glfw/src/CMakeLists.txt:10 (cmake_policy):
   behavior and not rely on setting a policy to OLD.
 
 
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
 -- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
--- Looking for dinput.h
--- Looking for dinput.h - found
--- Looking for xinput.h
--- Looking for xinput.h - found
--- Performing Test _GLFW_HAS_DEP
--- Performing Test _GLFW_HAS_DEP - Success
--- Performing Test _GLFW_HAS_ASLR
--- Performing Test _GLFW_HAS_ASLR - Success
--- Performing Test _GLFW_HAS_64ASLR
--- Performing Test _GLFW_HAS_64ASLR - Success
 -- Using Win32 for window creation
 CMake Deprecation Warning at extern/googletest/src/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
@@ -146,7 +113,6 @@ Call Stack (most recent call first):
   extern/googletest/src/googletest/CMakeLists.txt:84 (include)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found PythonInterp: C:/Users/jaxmu/AppData/Local/Programs/Python/Python311/python.exe (found version "3.11.5") 
 CMake Deprecation Warning at extern/libebml/src/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -155,10 +121,6 @@ CMake Deprecation Warning at extern/libebml/src/CMakeLists.txt:1 (cmake_minimum_
   CMake that the project does not need compatibility with older versions.
 
 
--- Looking for winapifamily.h
--- Looking for winapifamily.h - found
--- Looking for a ASM_NASM compiler
--- Looking for a ASM_NASM compiler - NOTFOUND
 CMake Warning at extern/libjpeg-turbo/CMakeLists.txt:16 (message):
   NASM assembler not found - libjpeg-turbo performance may suffer
 
@@ -204,16 +166,6 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- libjpeg API shared library version = 62.3.0
 -- Compiler flags =  -g
 -- Linker flags =  -Wl,--as-needed -Wl,--build-id 
--- Looking for sys/types.h
--- Looking for sys/types.h - found
--- Looking for stddef.h
--- Looking for stddef.h - found
--- Check size of size_t
--- Check size of size_t - done
--- Check size of unsigned long
--- Check size of unsigned long - done
--- Performing Test INLINE_WORKS
--- Performing Test INLINE_WORKS - Success
 -- INLINE = __inline__ __attribute__((always_inline)) (FORCE_INLINE = 1)
 -- CMAKE_EXECUTABLE_SUFFIX = .exe
 -- SIMD extensions: None (WITH_SIMD = 0)
@@ -247,8 +199,6 @@ CMake Warning (dev) at extern/libsoundio/src/CMakeLists.txt:2 (project):
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 Configuring libsoundio version 1.1.0
--- Looking for jack_set_port_rename_callback in jack
--- Looking for jack_set_port_rename_callback in jack - not found
 -- Could NOT find JACK (missing: JACK_LIBRARY JACK_INCLUDE_DIR HAVE_jack_set_port_rename_callback) 
 CMake Warning (dev) at C:/Users/jaxmu/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
   The package name passed to `find_package_handle_standard_args` (PULSEAUDIO)
@@ -273,9 +223,6 @@ Call Stack (most recent call first):
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Could NOT find COREAUDIO (missing: COREAUDIO_LIBRARY COREAUDIO_INCLUDE_DIR) 
--- Looking for audioclient.h
--- Looking for audioclient.h - found
--- Found WASAPI: 1  
 
 Installation Summary
 --------------------
@@ -323,13 +270,10 @@ CMake Deprecation Warning at extern/spdlog/src/CMakeLists.txt:6 (cmake_minimum_r
 
 
 -- Target architecture - x86_64
--- Found OpenGL: opengl32   
 -- Could NOT find OpenCV (missing: OpenCV_DIR)
--- Performing Test COMPILER_HAS_DEPRECATED_ATTR
--- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
 -- Could NOT find OpenCV (missing: OpenCV_DIR)
 -- Clang-format not found
--- Configuring done (40.1s)
+-- Configuring done (3.0s)
 CMake Error:
   Error evaluating generator expression:
 
@@ -370,5 +314,5 @@ CMake Error:
   TARGET_PDB_FILE is not supported by the target linker.
 
 
--- Generating done (1.9s)
+-- Generating done (2.6s)
 CMake Generate step failed.  Build files cannot be regenerated correctly.
