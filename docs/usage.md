@@ -102,6 +102,7 @@ can find it.
 ### Windows Dependencies
 
 * [Depth Engine](depthengine.md)
+* [NDI](https://ndi.video/for-developers/ndi-sdk/)
 
 ### Linux Dependencies
 
@@ -110,6 +111,7 @@ can find it.
 * OpenGL
 
 * [Depth Engine](depthengine.md)
+* [NDI](https://ndi.video/for-developers/ndi-sdk/)
 
 ## Device Setup
 
