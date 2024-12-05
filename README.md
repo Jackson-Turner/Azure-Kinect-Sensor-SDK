@@ -1,4 +1,4 @@
-# Azure Kinect SDK (K4A)
+# Azure Kinect SDK (K4A) With NDI
 
 Welcome to the Azure Kinect Sensor SDK! We hope you can use it to build many great applications and participate in the project. Don't be shy to ask questions, and provide feedback. See [Azure.com/Kinect](https://Azure.com/kinect) for device
 info and available documentation.
