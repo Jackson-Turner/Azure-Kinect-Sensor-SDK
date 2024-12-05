@@ -8,8 +8,8 @@ see [usage](usage.md) for more information. If you need to build from source, yo
 
 Compilers:
 * MSVC (Windows)
-* Clang (Linux)
-* GCC (Linux)
+* Visual Studio 2017 is the only way to build
+
 
 Architectures: 
 * amd64
@@ -123,7 +123,8 @@ need for building, but is required running the SDK*
 ### Building using Visual Studio
 
 Visual Studio 2017 supports opening CMake based projects directly.
-Use File / Open / CMake ... to open the root CMakeLists.txt in the project.
+Use File / Open / CMake ... to open the CMakeLists.txt in the Examples folder.
+
 
 ### C# Wrapper
 
